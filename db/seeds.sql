@@ -1,12 +1,12 @@
 USE employees;
 
-INSERT INTO department (name)
+INSERT INTO department (dept_name)
 VALUES ("Sales");
-INSERT INTO department (name)
+INSERT INTO department (dept_name)
 VALUES ("Engineering");
-INSERT INTO department (name)
+INSERT INTO department (dept_name)
 VALUES ("Finance");
-INSERT INTO department (name)
+INSERT INTO department (dept_name)
 VALUES ("Legal");
 
 INSERT INTO role (title, salary, department_id)
